@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  font: 100%/1.3 Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  background: url(../img/groovepaper.png) repeat;
+}
+.key-pad {
+  margin: 0 auto;
+}
+.key-pad li {
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  display: inline-block;
+  width: 30%;
+  padding: 2.5em 0;
+  margin-bottom: 0.75em;
+  text-align: center;
+}
+.key-pad li:last-child {
+  margin-bottom: 0;
+}
+.key-pad h2 {
+  font-size: 1.8em;
+  padding: 0;
+  margin: 0;
+}
+.field-names-list {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+.field-names-list li {
+  line-height: 3;
+  list-style: none;
+}
+.field-names-list li p {
+  color: #f89406;
+}
